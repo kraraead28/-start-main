@@ -1,0 +1,62 @@
+{
+    "name": "⦓ 𝗦𝗢𝗨𝗥𝗖𝗘 MARCO ⦔",
+    "description": "تنصيب بوتات القرآن الكريم للتشغيل في المكالمات الصوتية",
+    "logo": "https://graph.org/file/dad0c165c6157a5ef9c82.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "Fallen",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": " ضـع ايبي ايدي احصل علية من هنا https://my.telegram.org",
+        "value":29828941 "",
+        "required": true
+      },
+      "API_HASH": {
+        "description":adac20199eb0294db727da4259360ab0 " ضـع ايبي هاش احصل علية من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "7297611324:AAGTU7O6vcdsapztvVrxPzTH_SGh9TwAXns",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "1220257387",
+        "value": "",
+        "required": true
+      },
+      "SESSION": {
+        "description": "ضـع جلسة البايروجرام احصل عليها من هنا @UU2xbot",
+        "value":AgHHJ00AvY_FyxEyajITzLGkXAkQrP25Uu5uWto_8hHq7hbRI54gQ-wjMmuZM3UGluav6K0py5Ihy2O8tWZiL3yWPmprdCHuPmYADCE9HSQzbWt7eVb2RlYfePn8MqUkY6GSkSqjyp4EgqsanJafsGTrWQpduQFDmwLKe7Y1-sukrDkRMNO3tEf6zms0aRIjqASGeqO69jZmCNteHxqLrOf768sgeYNoq27YrNWZUiBoMfnU8QU7weylJSKbv1xPKk-przB29geXlAYPAdnFrCuefr_46EEPCWzSnB1emLWcls7Fn8q91vGW2rWFRDLYvvZIHjinwicUQOh0DUSZLLZkNMdJgwAAAABIu6ZrAA "",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "1220257387",
+        "value": "",
+        "required": true
+      },
+      "SUPPORT_CHAT": {
+        "description": "ضـع رابـط جـروب الـدعـم",
+        "value": "https://t.me/Music_Mrko",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
